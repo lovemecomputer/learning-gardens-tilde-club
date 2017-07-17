@@ -1,0 +1,40 @@
+// html {
+//   background: #f6e7fc;
+//   background:
+//     radial-gradient(circle, transparent 20%, $color-background 20%, $color-background 90%, transparent 90%, transparent),
+//     radial-gradient(circle, transparent 20%, $color-primary   20%, $color-primary 90%, transparent 90%, transparent) -4px -8px,
+//     linear-gradient($color-secondary 4px, transparent 4px) 0 -2px,
+//     linear-gradient(90deg, $color-secondary 4px, transparent 4px) -2px 0;
+//
+//   background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+//   background-color: tint($color-borders, 95%);
+// }
+
+$color-background: #E8DEFE;
+$color-background-b: #CFD7FC;
+$color-accent-yellow: #FFFBD8;
+$color-accent-pink: #FCE4FB;
+
+$color-background: #ebe6f7;
+$color-background-b: #ebedf4;
+
+
+html {
+  background: $color-background;
+  background: linear-gradient(to bottom, $color-background, $color-background-b);
+  height: 100vh;
+}
+
+@media (min-width: 700px) {
+}
+
+
+main {
+  font-size: 4.8rem;
+}
+
+mark {
+  background: #fff;
+  color: $color-text-secondary;
+  padding: .3rem;
+}

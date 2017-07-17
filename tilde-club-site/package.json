@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bourbon": "^4.3.3",
+    "bourbon-neat": "^2.0.0"
+  }
+}
